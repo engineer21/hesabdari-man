@@ -1,0 +1,41 @@
+{
+  "name": "acc-mobile-pro-farzad",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/ensure-dist.mjs && node start.js",
+    "dev:server": "node --watch server/app.js",
+    "dev:all": "node scripts/dev-all.mjs",
+    "build": "vite build",
+    "build:vite": "vite build",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "start": "node start.js",
+    "backup": "node scripts/backup-db.js",
+    "pack:cpanel": "node scripts/pack-cpanel.mjs",
+    "preview": "vite preview",
+    "screenshots": "node scripts/capture-screenshots.mjs"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.23",
+    "cmdk": "^1.1.1",
+    "dotenv": "^18.0.8",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.2",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

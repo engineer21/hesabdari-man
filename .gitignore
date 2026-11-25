@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+data/*.sqlite
+data/*.sqlite-*
+data/uploads/**
+!data/uploads/.gitkeep
+!data/.gitkeep
+backups/**
+!backups/.gitkeep
+!backups/auto/.gitkeep
+!backups/manual/.gitkeep
+!backups/safety/.gitkeep
+.cpanel-pack-*/
+acc-mobile-cpanel-*.zip
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Next.js webapp build artifacts
+webapp/.next
+webapp/node_modules
+webapp/*.tsbuildinfo
+webapp/next-env.d.ts
+
+# Internal and test artifacts
+.playwright-cli
+.aistudio
+.skills

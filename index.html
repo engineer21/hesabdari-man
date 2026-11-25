@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>حسابداری من</title>
+    <meta name="description" content="اپلیکیشن حسابداری وب (موبایل‌فرندلی) با بک‌اند Node.js و پایگاه داده SQLite">
+    <meta property="og:title" content="حسابداری من">
+    <meta property="og:description" content="اپلیکیشن حسابداری وب (موبایل‌فرندلی) با بک‌اند Node.js و پایگاه داده SQLite">
+    <meta property="og:type" content="website">
+    
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#7c3aed">
+    <link rel="apple-touch-icon" href="/icon.svg">
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link href="/assets/vazirmatn.css" rel="stylesheet">
+<script>
+    if (localStorage.getItem('farzad_v2_theme') === 'dark') {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark');
+        if (!localStorage.getItem('farzad_v2_theme')) {
+            localStorage.setItem('farzad_v2_theme', 'light');
+        }
+    }
+</script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

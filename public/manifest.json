@@ -1,0 +1,23 @@
+{
+  "name": "حسابداری من",
+  "short_name": "حسابداری من",
+  "description": "حسابداری محدود با سرفصل درختی، اشخاص، بانک و گزارش گردش و مانده.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8f9fd",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

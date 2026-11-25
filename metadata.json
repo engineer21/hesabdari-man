@@ -1,0 +1,6 @@
+{
+  "name": "حسابداری من",
+  "description": "اپلیکیشن حسابداری وب (موبایل‌فرندلی) با بک‌اند Node.js و پایگاه داده SQLite",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
